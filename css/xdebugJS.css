@@ -1,0 +1,70 @@
+/* 
+    Document   : xdebugJS
+    Created on : 08.04.2013, 20:43:11
+    Author     : senycorp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+table.xdebugJS {
+    width: 100%;
+    font-family: Arial;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+table.xdebugJS tr {
+
+}
+
+table.xdebugJS td {
+    padding: 5px;
+}
+
+table.xdebugJS th {
+}
+
+table.xdebugJS th span {
+}
+
+table.xdebugJS tr:first-child {
+}
+
+div#xdebugContainer {
+    background-color: white;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+div.xdebugEntry {
+    display:none;
+}
+
+div.xdebugEntryVisible {
+    display:block !important;
+}
+
+.xdebugOpener {
+}
+
+#xdebugMainContainer {
+    position: absolute;
+    top:0;
+    left:0;
+    /*background: url("/~senycorp/private/xdebugJS/css/bg.png");*/
+    border-radius: 0 0 5px 0;
+    padding: 1%;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+#xdebugControl {
+    text-align: center;
+}
+
+a.xdebugControl img {
+    vertical-align: middle;
+}
+
+a.xdebugOpener img {
+}
+
